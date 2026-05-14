@@ -1,0 +1,53 @@
+<svg width="960" height="680" viewBox="0 0 960 680" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Vessel remote guidance workflow diagram</title>
+  <defs>
+    <linearGradient id="sea" x1="0" x2="960" y1="420" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9FD0F4"/>
+      <stop offset="1" stop-color="#6BAFD9"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="960" y1="0" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FBFD"/>
+      <stop offset="1" stop-color="#DCECF4"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#132235" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect x="30" y="28" width="900" height="624" rx="34" fill="url(#panel)"/>
+  <path d="M30 486C145 422 245 441 365 485C485 529 566 589 710 538C830 495 862 425 930 418V652H30V486Z" fill="#CFE8FA"/>
+  <path d="M30 526C156 474 254 497 376 534C514 576 603 604 742 556C836 523 872 480 930 476V652H30V526Z" fill="url(#sea)"/>
+
+  <rect x="92" y="82" width="320" height="76" rx="14" fill="#FFFFFF" stroke="#B8C7D9" stroke-width="3" filter="url(#shadow)"/>
+  <text x="122" y="130" fill="#132235" font-family="Georgia, Times New Roman, serif" font-size="27" font-weight="700">Remote guidance workflow</text>
+
+  <rect x="590" y="82" width="262" height="160" rx="18" fill="#FFFFFF" stroke="#B8C7D9" stroke-width="3" filter="url(#shadow)"/>
+  <rect x="622" y="116" width="198" height="22" rx="6" fill="#0C4A6E"/>
+  <rect x="622" y="158" width="78" height="48" rx="8" fill="#D8EAFE"/>
+  <rect x="718" y="158" width="102" height="48" rx="8" fill="#D8EAFE"/>
+  <path d="M632 190L651 174L667 185L690 165" stroke="#0F766E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="744" cy="182" r="10" fill="#0F766E"/>
+  <circle cx="778" cy="182" r="10" fill="#0C4A6E"/>
+  <circle cx="812" cy="182" r="10" fill="#B7791F"/>
+  <text x="609" y="280" fill="#132235" font-family="Georgia, Times New Roman, serif" font-size="25" font-weight="700">Onshore guidance center</text>
+
+  <circle cx="255" cy="268" r="78" fill="#FFFFFF" stroke="#B8C7D9" stroke-width="3" filter="url(#shadow)"/>
+  <path d="M224 270L248 294L292 242" stroke="#0F766E" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="180" y="382" fill="#132235" font-family="Georgia, Times New Roman, serif" font-size="25" font-weight="700">Sensor status</text>
+
+  <path d="M334 258C426 211 514 194 594 180" stroke="#0C4A6E" stroke-width="8" stroke-linecap="round" stroke-dasharray="12 18"/>
+  <path d="M594 198L634 172L588 161" stroke="#0C4A6E" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M436 366C468 326 528 314 586 330L740 372C752 375 756 390 747 399L690 456C680 466 664 471 650 470L382 447C366 446 358 427 369 414L436 366Z" fill="#0C4A6E" filter="url(#shadow)"/>
+  <path d="M405 389L578 369L705 401L668 436L405 416V389Z" fill="#FFFFFF" opacity="0.94"/>
+  <rect x="480" y="331" width="102" height="46" rx="8" fill="#0F766E"/>
+  <path d="M532 310V331" stroke="#132235" stroke-width="7" stroke-linecap="round"/>
+  <path d="M475 472C534 495 606 499 672 477" stroke="#0C4A6E" stroke-width="10" stroke-linecap="round" opacity="0.32"/>
+
+  <path d="M640 292C590 337 536 360 481 373" stroke="#0F766E" stroke-width="8" stroke-linecap="round" stroke-dasharray="12 18"/>
+  <path d="M492 351L448 380L499 390" stroke="#0F766E" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="122" y="534" width="716" height="84" rx="16" fill="#FFFFFF" opacity="0.9" filter="url(#shadow)"/>
+  <text x="158" y="570" fill="#132235" font-family="Georgia, Times New Roman, serif" font-size="22" font-weight="700">Vessel data -> onshore review -> guidance instruction</text>
+  <text x="158" y="599" fill="#0C4A6E" font-family="Georgia, Times New Roman, serif" font-size="22" font-weight="700">Safer docking support</text>
+</svg>
